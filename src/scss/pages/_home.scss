@@ -1,5 +1,6 @@
 .facebook {
     background-color: #f0f2f5;
+    background-size: cover;
     .container {
         margin: 0 auto;
         max-width: 1423px;
@@ -7,12 +8,11 @@
         padding: 72px 0 112px;
         .all {
             display: flex;
-            // align-items: center;
             justify-content: center;          
-            padding: 46px 0;
+            padding: 88px 0;
             
             .facebookcontent {
-                padding-right: 32px;
+                // padding-right: 32px;
                 width: 580px;
                 .logo {
                     width: 320px;
@@ -37,7 +37,6 @@
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                // padding: 112px 0 16px;
     
                 form {
                     border-radius: 8px;
@@ -74,7 +73,6 @@
                             line-height: 48px;
                             border-radius: 6px;
                             padding: 0 16px;
-                            width: 364px;
                         }
                     }
     
@@ -113,6 +111,7 @@
                     p {
                         font-size: 14px;
                         font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+                        margin-top: 28px;
                         span {
                             font-weight: bold;
                         }

@@ -1,5 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
 .facebook {
   background-color: #f0f2f5;
+  background-size: cover;
 }
 .facebook .container {
   margin: 0 auto;
@@ -10,10 +21,9 @@
 .facebook .container .all {
   display: flex;
   justify-content: center;
-  padding: 46px 0;
+  padding: 88px 0;
 }
 .facebook .container .all .facebookcontent {
-  padding-right: 32px;
   width: 580px;
 }
 .facebook .container .all .facebookcontent .logo {
@@ -67,7 +77,6 @@
   line-height: 48px;
   border-radius: 6px;
   padding: 0 16px;
-  width: 364px;
 }
 .facebook .container .all .loginform form .password-reset {
   text-align: center;
@@ -96,6 +105,7 @@
 .facebook .container .all .loginform .message p {
   font-size: 14px;
   font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+  margin-top: 28px;
 }
 .facebook .container .all .loginform .message p span {
   font-weight: bold;
