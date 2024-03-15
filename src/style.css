@@ -1,0 +1,102 @@
+.facebook {
+  background-color: #f0f2f5;
+}
+.facebook .container {
+  margin: 0 auto;
+  max-width: 1423px;
+  height: 100vh;
+  padding: 72px 0 112px;
+}
+.facebook .container .all {
+  display: flex;
+  justify-content: center;
+  padding: 46px 0;
+}
+.facebook .container .all .facebookcontent {
+  padding-right: 32px;
+  width: 580px;
+}
+.facebook .container .all .facebookcontent .logo {
+  width: 320px;
+}
+.facebook .container .all .facebookcontent .logo img {
+  width: 100%;
+  height: 100%;
+}
+.facebook .container .all .facebookcontent p {
+  font-size: 28px;
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  line-height: 32px;
+  width: 500px;
+  margin: 0;
+  padding-left: 30px;
+}
+.facebook .container .all .loginform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.facebook .container .all .loginform form {
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  padding: 10px 0 28px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.facebook .container .all .loginform form div {
+  padding: 6px 0;
+}
+.facebook .container .all .loginform form div input {
+  font-size: 17px;
+  padding: 14px 16px;
+  width: 330px;
+  border-radius: 6px;
+  border: 1px solid #dddfe2;
+}
+.facebook .container .all .loginform form div input:focus {
+  outline: 1px solid #0866ff;
+}
+.facebook .container .all .loginform form .btn input {
+  background: #0866ff;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 48px;
+  border-radius: 6px;
+  padding: 0 16px;
+  width: 364px;
+}
+.facebook .container .all .loginform form .password-reset {
+  text-align: center;
+  font-weight: 500;
+}
+.facebook .container .all .loginform form .password-reset a {
+  font-size: 14px;
+  color: #0866ff;
+  text-decoration: none;
+}
+.facebook .container .all .loginform form .borderdiv {
+  width: 364px;
+  border-bottom: 1px solid #dadde1;
+  margin: 4px 16px 17px;
+}
+.facebook .container .all .loginform form .create-account button {
+  background-color: #42b72a;
+  color: #fff;
+  border-radius: 6px;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 48px;
+  padding: 0 16px;
+  border: none;
+}
+.facebook .container .all .loginform .message p {
+  font-size: 14px;
+  font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+}
+.facebook .container .all .loginform .message p span {
+  font-weight: bold;
+}/*# sourceMappingURL=style.css.map */

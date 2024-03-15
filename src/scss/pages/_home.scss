@@ -1,0 +1,124 @@
+.facebook {
+    background-color: #f0f2f5;
+    .container {
+        margin: 0 auto;
+        max-width: 1423px;
+        height: 100vh;
+        padding: 72px 0 112px;
+        .all {
+            display: flex;
+            // align-items: center;
+            justify-content: center;          
+            padding: 46px 0;
+            
+            .facebookcontent {
+                padding-right: 32px;
+                width: 580px;
+                .logo {
+                    width: 320px;
+    
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+    
+                p {
+                    font-size: 28px;
+                    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+                    line-height: 32px;
+                    width: 500px;
+                    margin: 0;
+                    padding-left: 30px;
+                }
+            }
+    
+            .loginform {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                // padding: 112px 0 16px;
+    
+                form {
+                    border-radius: 8px;
+                    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+                    box-sizing: border-box;
+                    padding: 10px 0 28px;
+                    background: #fff;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+    
+                    div {
+                        padding: 6px 0;
+    
+                        input {
+                            font-size: 17px;
+                            padding: 14px 16px;
+                            width: 330px;
+                            border-radius: 6px;
+                            border: 1px solid #dddfe2;
+                        }
+    
+                        input:focus {
+                            outline: 1px solid $fb;
+                        }
+                    }
+    
+                    .btn {
+                        input {
+                            background: $fb;
+                            color: #fff;
+                            font-size: 20px;
+                            font-weight: bold;
+                            line-height: 48px;
+                            border-radius: 6px;
+                            padding: 0 16px;
+                            width: 364px;
+                        }
+                    }
+    
+                    .password-reset {
+                        text-align: center;
+                        font-weight: 500;
+    
+                        a {
+                            font-size: 14px;
+                            color: $fb;
+                            text-decoration: none;
+                        }
+                    }
+    
+                    .borderdiv {
+                        width: 364px;
+                        border-bottom: 1px solid #dadde1;
+                        margin: 4px 16px 17px;
+                    }
+    
+                    .create-account {
+                        button {
+                            background-color: #42b72a;
+                            color: #fff;
+                            border-radius: 6px;
+                            font-size: 17px;
+                            font-weight: bold;
+                            line-height: 48px;
+                            padding: 0 16px;
+                            border: none;
+                        }
+                    }
+                }
+    
+                .message {
+                    p {
+                        font-size: 14px;
+                        font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+                        span {
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
